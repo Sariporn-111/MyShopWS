@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sarabun", sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    background: black;
+    /* 14 คือบนล่าง 32 ซ้ายขวา*/
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+/* logo */
+.logo {
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    /* ลบขีดข้างล้างของลิงค์ */
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+}
+
+.banner {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* ข้อความ */
+.text {
+    color: rgb(67, 67, 65);
+    line-height: 1;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.section {
+    margin-top: 48px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 500;
+    /* เส้นฝั่งซ้ายมือ */
+    border-left: 4px solid #000000;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.feature-row {
+    display: flex;
+    gap: 16px;
+}
+
+.feature-box {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e0dddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.f-text {
+    color: gray;
+
+}
+
+.product-box {
+    width: 220px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e0e0ee;
+    overflow: hidden;
+}
+
+.product-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.product-info {
+    padding: 16px;
+}
+
+.fig-btn2 {
+    display: flex;
+    justify-content: end;
+
+}
+
+.product-name {
+    font-size: 16px;
+}
+
+.product-price {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    /* text-align: center; */
+}
+
+.product-desc {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+
+.product-btn {
+    width: 100%;
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-btn:hover {
+    background: #e0dddd;
+    color: rgb(98, 97, 97);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footer {
+    background: #000000;
+    color: #fff;
+    padding: 32px 40px;
+    margin-top: auto;
+    text-align: end;
+
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(87, 90, 92);
+
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 14px;
+    /* margin-top: 5px; */
+}
